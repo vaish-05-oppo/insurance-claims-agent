@@ -179,6 +179,68 @@ http://localhost:5173
 ```
 
 ---
+# ⚙️ Installation & Steps to Run
+
+## Prerequisites
+
+Make sure the following are installed on your system:
+
+- Node.js (v18 or above)
+- npm (comes with Node.js)
+- Git (optional, for cloning the repository)
+
+---
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/vaish-05-oppo/insurance-claims-agent.git
+```
+
+---
+
+## 2. Navigate to the Project Folder
+
+```bash
+cd insurance-claims-agent
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 5. Open the Application
+
+Open your browser and navigate to:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 6. Test the Application
+
+1. Upload a sample **TXT** or **PDF** FNOL document.
+2. The application extracts the claim details automatically.
+3. Missing mandatory fields are validated.
+4. The appropriate claim route is recommended.
+5. The generated JSON output is displayed.
+6. Use **Copy JSON** or **Download JSON** if required.
 
 # 🧪 Sample Test Documents
 
